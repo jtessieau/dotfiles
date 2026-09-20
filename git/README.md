@@ -15,7 +15,7 @@ it, it stays in git history).
 The fix: keep identity out of the tracked file entirely, and have Git pull
 it in from a second file that never gets committed.
 
-```bash
+```ini
 [include]
     path = ~/.gitconfig.local
 ```
@@ -50,7 +50,7 @@ Then edit `~/.gitconfig.local` and fill in your real name and email:
 
 Make sure your dotfiles repo's `.gitignore` includes:
 
-```bash
+```sh
 .gitconfig.local
 ```
 
