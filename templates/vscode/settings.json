@@ -1,0 +1,32 @@
+{
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.rulers": [120],
+  "editor.renderWhitespace": "selection",
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.cursorSurroundingLines": 5,
+  "editor.cursorSurroundingLinesStyle": "all",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.exclude": {
+    "**/.DS_Store": true
+  },
+
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true
+  },
+
+  "git.autofetch": true,
+  "git.pruneOnFetch": true,
+  "git.confirmSync": false,
+
+  "terminal.integrated.scrollback": 10000,
+  "workbench.startupEditor": "none"
+}

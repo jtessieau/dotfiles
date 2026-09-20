@@ -1,0 +1,19 @@
+# macOS bootstrap packages for this dotfiles setup.
+#
+# Install Homebrew first, then run:
+#   brew bundle --file=/Users/julien/Dev/dotfiles/brew/Brewfile
+#
+# This deliberately contains only command-line tools shared by the Git, Zsh,
+# and Vim workflow. Keep machine-specific GUI applications out of this file.
+
+# Core shell and editor used by the tracked configuration.
+brew "git"
+brew "vim"
+brew "zsh"
+
+# Everyday command-line utilities.
+brew "bat"
+brew "fd"
+brew "fzf"
+brew "jq"
+brew "ripgrep"
